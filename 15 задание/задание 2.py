@@ -1,7 +1,7 @@
 n = int(input())
-summa6 = 0
+max3 = -301
 for i in range(n):
     number = int(input())
-    if number % 6 == 0:
-        summa6 = summa6 + number
-print(summa6)
+    if number % 3 == 0 and number % 10 == 4:
+        max3 = max3 + number
+print(max3)
